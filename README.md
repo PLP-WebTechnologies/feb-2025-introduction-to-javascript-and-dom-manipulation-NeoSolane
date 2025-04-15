@@ -1,26 +1,35 @@
 # Introduction to JavaScript and DOM Manipulation
 
-## Objectives
+<!DOCTYPE html>
+<html lang "en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device,initial-scale=1.0" />
+        <title>interactive webpage</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="main-title">Welcome to my page</h1>   
+        </header>
 
-Write basic JavaScript functions.
-Manipulate the DOM dynamically.
-Respond to user interactions.
+        <main>
+            <section>
+                <p id="description">This content will be changed using  javascript.</p>
+                <button id="change-text-btn">change Text</button>
+            </section>
+            <section>
+                <button id="toggle-style-btn">ChangebBackground</button>
+            </section>
+            <section>
+                <button id="toggle-element-btn">Add/Remove Element</button>
+                <div id="element-container"></div>
+            </section>
+            </main>
 
-## Instructions
-
-- Create a script.js file and link it to a HTML.
-- Structure the document using DOCTYPE, html, head, and body.
-
->[!NOTE]
->  - Write JavaScript that:
->  - Changes text content dynamically.
->  - Modifies CSS styles via JavaScript.
->  - Adds or removes an element when a button is clicked.
-
-
-# Tasks
-- Create a well-structured HTML5 document.
-- Use at least 5 different HTML elements.
-- Ensure semantic correctness.
-
-Happy Coding! 💻✨
+        <footer>
+         <p>&copy; 2025 My website</p>
+    </footer>
+    </body>
+    </html>
